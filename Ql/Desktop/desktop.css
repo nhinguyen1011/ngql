@@ -5,24 +5,22 @@ body {
 
 button { 
     background-color: white;  color: black;  border: 2px solid #DC143C;}
-.content {
-        column-count: 3; /* Số cột */
-        column-gap: 0px;	
-    }
-    
-    .content img {
-        display: grid;
-        grid-template-rows: 1fr auto;
-        margin-bottom: 10px;
-        break-inside: avoid;
+.content #ima{
         position:relative;
-        left: 400px;
-        top: -220px; 
+        left:400px;
+        top: -400px ;
+        text-decoration: none;
+    }
+    .ncontent #ima{
+        position:relative;
+        left:300px;
+        top: -350px ;
+        text-decoration: none;
     }
 .custom-logo{
     position: relative;
     left: 80px;
-    top: 30px; 
+    top: 60px; 
   }
 .active{
     text-decoration: none
@@ -33,6 +31,7 @@ button {
     top: 30px; 
     font-size:18px;
     list-style-type: none;
+    line-height: 50px;
 
 }
 #menu li img{
@@ -47,12 +46,11 @@ button {
     top: 40px; 
     font-size:14px;
     text-decoration: none
-
 }
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -270px; 
+    top: -440px; 
 }
 
 

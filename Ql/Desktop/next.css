@@ -11,7 +11,7 @@ button {
 .custom-logo{
      position: relative;
      left: 80px;
-     top: 30px; 
+     top: 60px; 
    }
 #menu{
      position: relative;
@@ -19,6 +19,7 @@ button {
      top: 30px; 
      font-size:18px;
      list-style-type: none;
+     line-height: 60px;
    }
    #menu li img{
      position: relative;
@@ -37,7 +38,7 @@ button {
 .icon-mini{
      position:relative;
      left: 1100px;
-     top: -220px; 
+     top: -520px; 
 }
 .custom{
      position:relative;
