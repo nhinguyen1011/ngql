@@ -40,13 +40,13 @@ h1{
 }
 #menu li img{
     position: relative;
-    left: -30px;
+    left: -20px;
     top: 40px; 
     font-size:18px;
 }
 #menu li a{
     position: relative;
-    left: -30px;
+    left: -20px;
     top: 40px; 
     font-size:14px;
     text-decoration: none
