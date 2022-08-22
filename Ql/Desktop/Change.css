@@ -2,6 +2,11 @@ body {
     background-image: url('/DL/full.png');
     background-size: cover;
 }
+h1{
+    position:relative;
+    left:580px;
+    top: -380px ;
+}
 
 button { 
     background-color: white;  color: black;  border: 2px solid #DC143C;}
@@ -50,14 +55,25 @@ button {
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -470px; 
+    top: -370px; 
 }
 
 
-.text{
-     
-        color: rgb(4, 3, 3);
-        position: absolute;
-        top: -200px
-        
+#format{
+    position:relative;
+    left: 450px;
+    top: -370px; 
+    font-size:18px
+}
+#up{
+    position:relative;
+    left: 850px;
+    top: -550px;     
+    font-size:18px
+}
+#submit{
+    position:relative;
+    left: 680px;
+    top: -500px;     
+    font-size: 30px;
 }

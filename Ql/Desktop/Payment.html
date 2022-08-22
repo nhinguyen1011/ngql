@@ -3,14 +3,15 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/Desktop/Listmanage.css">
+        <link rel="stylesheet" href="/Desktop/Payment.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Infomation</title>
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Thanh toán</title>
     </head>
     <body>
       <div id = "wrapper">
-        <div id = "header" style="width:25%">
+        <div id = "header" >
           <nav class = "container">
             <a href="" id="logo">
               <img width="85" height="84" src="/DL/Ellipse.png" class="custom-logo" alt="website">
@@ -36,13 +37,12 @@
                 </li>
                 <li>
                             <img width="40" height="30" src="/DL/Group 756.png" class="custom-logo" alt="website">
-                                <a href="/Desktop/Packet.html">Package Manager</a>
+                                <a href="/Desktop/Change.html">Package Manager</a>
                             </li>
                 <li>
                     <img width="40" height="30" src="/DL/Group 757.png" class="custom-logo" alt="website">
                         <a href="/Desktop/Payment.html">Payment Manager</a><br>
                     </li>
-                
               </ul>
           </div>
           <!-- các icon gốc phải -->
@@ -55,19 +55,59 @@
               <img width="30" height="20" src="/DL/Ellipse.png" class="new" alt="website">
             </a>
           </div>
+          <h1>Duyệt danh sách thanh toán</h1>
+          <div class = "lab">
+          <table border="1">
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>ID</th>
+                <th>Thời gian</th>
+                <th>Số tiền</th>
+                <th>Thông báo</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cao Minh Quang</td>
+                <td>123456</td>
+                <td>15:45-03/08/1993</td>
+                <td>1000000</td>
+                <th> <input type="checkbox" id="vehicle2" >
+                </th>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hà Thị Thanh Tú</td>
+                <td>123457</td>
+                <td>1:45-04/09/1991</td>
+                <td>1000000</td>
+                <th> <input type="checkbox" id="vehicle2" >
+                </th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vương Thị Lê Na</td>
+                <td>123458</td>
+                <td>9:75-06/10/1991</td>
+                <td>22500</td>
+                <th> <input type="checkbox" id="vehicle2" >
+                </th>
+            </tr>
+        </table>
+        <br>
+
+        Hạn mức thanh toán:
+              <input type="text" name="lastname" >
+              <i class="fa fa-pencil"></i>
+              <br>
+              <input type="submit" id="submit"  value="HUỶ">
+              <input type="submit" id="submit"  value="LƯU">
+
+          </div>
           </nav>
-          
         </div>
-        <h1>QUẢN LÝ NGƯỜI DÙNG</h1>
-          <div class="wrap">
-                <form action="" class="search" method="post">
-               <input type="text" class="searchTerm" placeholder="Search..">
-               <button type="submit" class="searchButton">
-                 Submit
-              </button>
-             
-            </form>
-         </div>
+        
       </div>
     </body>
 
