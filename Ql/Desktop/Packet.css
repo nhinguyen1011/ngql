@@ -9,15 +9,17 @@ h1{
 }
 .lab{
     position: relative;
-    left: 300px;
+    left: 400px;
     top: -340px; 
     font-size: 20px;
+    text-align: center
+
 }
 #submit { 
     background-color: white;  color: black;  border: 2px solid #090808;
     position: relative;
     left: 460px;
-    top: 40px; 
+    top: -340px; 
     font-size: 25px;
 
 }
@@ -66,15 +68,22 @@ h1{
 #submit1 { 
     background-color:transparent ;  border: 2px solid #090808;
     position: relative;
-    left: 430px;
-    top: 70px; 
+    left: 670px;
+    top: -300px; 
     font-size: 25px;
 
 }
 .button{
     background-color:transparent ;  border: 2px solid #090808;
     position: relative;
-    left: 440px;
-    top: 70px; 
+    left: 680px;
+    top: -300px; 
     font-size: 25px;
+}
+table td{
+    width:200px
+
+}
+#ima{
+    height: 160px;width:160px
 }

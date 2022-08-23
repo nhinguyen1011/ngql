@@ -23,11 +23,7 @@ h1{
     font-size: 25px;
 
 }
-table td{
-    position: relative;
-    left: 350px;
-    top: -300px; 
-}
+
 .custom-logo{
     position: relative;
     left: 80px;
@@ -77,12 +73,9 @@ table td{
     font-size: 25px;
 
 }
-.button{
-    background-color:transparent ;  border: 2px solid #090808;
-    position: relative;
-    left: 680px;
-    top: -300px; 
-    font-size: 25px;
+table td{
+    table-layout: fixed;
+    width:150px
 }
 #ima{
     height: 160px;width:160px

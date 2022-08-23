@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/Desktop/Add.css">
+        <link rel="stylesheet" href="/Sp/Update.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Thêm người liên quan covid</title>
+        <title>Thực phẩm tươi sống</title>
     </head>
     <body>
       <div id = "wrapper">
-        <div id = "header" style="width:25%">
+        <div id = "header" >
           <nav class = "container">
             <a href="" id="logo">
               <img width="85" height="84" src="/DL/Ellipse.png" class="custom-logo" alt="website">
@@ -43,7 +43,6 @@
                     <img width="40" height="30" src="/DL/Group 757.png" class="custom-logo" alt="website">
                         <a href="/Desktop/Payment.html">Payment Manager</a><br>
                     </li>
-                
               </ul>
           </div>
           <!-- các icon gốc phải -->
@@ -56,46 +55,33 @@
               <img width="30" height="20" src="/DL/Ellipse.png" class="new" alt="website">
             </a>
           </div>
-          <div id="list">
-              <h1>Cập nhật thông tin</h1>
-            <div class="person">
-              <form action=""  >
-                  <p class = "mk">Họ tên
-                    <br>
-                      <input type="text" class="searchTerm" >
-                  </p>
-                  <p>Năm sinh
-                      <br>
-                      <input type="text" class="searchTerm" >
-                  </p>
-                  <p>Trạng thái hiện tại 
-                    <br>
-                    <input type="text" class="searchTerm" >
-                </p>
-                <p>Người liên đới
-                  <br>
-                  <input type="text" class="searchTerm" >
-              </p>                  
-              <div class = "tk">
-                      <div class = "lk">
-                        <p>CMND/CCCD
-                          <input type="text" class="searchTerm" >
-                        </p>
-                        <p >Địa chỉ nơi ở
-                          <input type="text" class="searchTerm" >
-                        </p>
-                        <p>Nơi đang điều trị/Cách ly
-                          <input type="text" class="searchTerm" >
-                        </p>
-                      </div>
-                      <input type="submit" id="submit1"  value="SUBMIT">
-                  </div>
+          <h1>Cá lóc</h1>
+          <img id="ima1" src="/Img/1.png">
+          <div class = "lab" >
+                <form action="">
+                  Tên:
+                  <input type="text" id="ten" value="Cá lóc" >
+                  <select name="categories">
+                    <option value="1">kg</option>
+                    <option value="2">g</option>
+                    <option value="3">yến</option>
+                 </select>
+                 Giá:
+                 <input type="number" name="gia">
+                    <input class="minus is-form" type="button" value="-">
+                    <input aria-label="quantity" class="input-qty" max="100" min="1" name="" type="number" value="">
+                    <input class="plus is-form" type="button" value="+">
+                  </form>
                 </form>
-            </div>
+        </div>
+            <button type="submit" onclick="location.href='/Sp/Update.html'"id="submit1" >Update</button>
+            <button type="submit" onclick="location.href='/Sp/Ca.html'"id="submit1" >Save</button>
           </div>
           </nav>
         </div>
+        
       </div>
     </body>
 
 </html>
+
