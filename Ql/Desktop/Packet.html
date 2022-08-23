@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Desktop/Packet.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Gói sản phẩm</title>
+    </head>
+    <body>
+      <div id = "wrapper">
+        <div id = "header" >
+          <nav class = "container">
+            <a href="" id="logo">
+              <img width="85" height="84" src="/DL/Ellipse.png" class="custom-logo" alt="website">
+            </a>
+            <!-- các icon bên gốc trái -->
+            <div class="icon">
+              <ul id="menu">
+                <li><img  width="40" height="30" src="/DL/Vector.png" class="custom-logo" alt="website">
+                    <a class="active" href="/Desktop/desktop.html">User Management</a>
+                </li>
+                <li>
+                    <img width="40" height="30"  src="/DL/Group 707.png" class="custom-logo" alt="website">
+                           <a href="/Desktop/Listmanage.html">List Manager</a>
+                </li>
+                
+                <li>
+                    <img width="40" height="30" src="/DL/admin-1.png" class="custom-logo" alt="website">
+                        <a href="/Desktop/Add.html">Add Information</a>
+                </li>
+                <li>
+                        <img width="40" height="30" src="/DL/Vector-1 2.png" class="custom-logo" alt="website">
+                            <a href="/Desktop/Change.html">State change</a>
+                </li>
+                <li>
+                            <img width="40" height="30" src="/DL/Group 756.png" class="custom-logo" alt="website">
+                                <a href="/Desktop/Packet.html">Package Manager</a>
+                            </li>
+                <li>
+                    <img width="40" height="30" src="/DL/Group 757.png" class="custom-logo" alt="website">
+                        <a href="/Desktop/Payment.html">Payment Manager</a><br>
+                    </li>
+              </ul>
+          </div>
+          <!-- các icon gốc phải -->
+          <div class = "icon-mini">
+            <i class="fa fa-bell"></i>&ensp;
+            <a class="active" href="/Desktop/Listmanage.html">
+               <i class="fa fa-user" ></i>
+            </a>&ensp;
+            <a class="active" href="/Desktop/desktop.html" id="ima">
+              <img width="30" height="20" src="/DL/Ellipse.png" class="new" alt="website">
+            </a>
+          </div>
+          <h1>Gói các nhu yếu phẩm</h1>
+          <div class="wrap">
+            <form action="" class="search" method="post">
+           <input type="text" class="searchTerm" placeholder="Search..">
+           <button type="submit" class="searchButton">
+             Submit
+          </button>
+          Lọc theo
+          <select name="mua" required="">
+            <option value="">Best-seller</option>
+            <option value="">New</option>
+            <option value="">Trend</option>
+          </select>
+          Sắp xếp
+          <select name="time" required="">
+            <option value="">Tăng dần</option>
+            <option value="">Giảm dần</option>
+          </select>
+        </form>
+     </div>
+          <div class = "lab">
+            <table border = "1" >
+              <tr>
+                  <th>STT</th>
+                  <th>Mã gói</th>
+                  <th>Tên gói</th>
+                  <th>Giới hạn số lượng</th>
+                  <th>Thời gian</th>
+                  <th colspan="2">Sản phẩm trong gói</th>
+              </tr>
+              <tr>
+                  <td>1</td>
+                  <td>10001</td>
+                  <td>Thực phẩm tươi sống</td>
+                  <td> </td>
+                  <td>Tuần</td>
+                  <th> <a href = "">
+                    <i class="fa fa-search">
+                  </i>
+                  </a>
+                  </th>
+                  <th> <i class="fa fa-pencil">
+                    <a href = ""></a>
+                  </i>
+                  </th>
+  
+              </tr>
+              <tr>
+                  <td>2</td>
+                  <td>10002</td>
+                  <td>Lương thực</td>
+                  <td> </td>
+                  <td>Tuần</td>
+                  <th> <a href = "">
+                    <i class="fa fa-search">
+                  </i>
+                  </a>
+                  </th>
+                  <th> <a href = "">
+                    <i class="fa fa-pencil"></i>
+                </a>
+                  </th>
+              </tr>
+              <tr>
+                  <td>3</td>
+                  <td>10003</td>
+                  <td>Các loại công nghệ phẩm</td>
+                  <td> </td>
+                  <td>Tuần</td>
+                  <th> <a href = "">
+                    <i class="fa fa-search">
+                  </i>
+                  </a>
+                  </th>
+                  <th> <a href = "">
+                    <i class="fa fa-pencil"></i>
+                </a>
+                  </th>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>10003</td>
+                <td>Nhu yếu phẩm dịch vụ</td>
+                <td> </td>
+                <td>Tuần</td>
+                  <th> <a href = "">
+                      <i class="fa fa-search">
+                    </i>
+                    </a>
+                  </th>
+                  <th>  <a href = "">
+                    <i class="fa fa-pencil"></i>
+                </a>
+                  </th>
+            </tr>
+          </table>
+          <br>
+          <input type="submit" id="submit1"  value="Thêm gói">
+          <button type="button" onclick="location.href='/Sp/list.html'" class="button" >Danh sách sản phẩm</button>          
+
+          </nav>
+        </div>
+        
+      </div>
+    </body>
+
+</html>
